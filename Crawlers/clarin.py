@@ -88,11 +88,11 @@ class ClarinSpider(scrapy.Spider):
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         
-        print(f"\n📰 Artículo guardado en: {filename}")
+        print(f"\n Artículo guardado en: {filename}")
         print(json.dumps(data, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":
     process = CrawlerProcess()
     process.crawl(ClarinSpider)
-    print("🚀 Iniciando crawler... (Presiona Ctrl+C para detener)")
+    print("Iniciando crawler")
     process.start()
