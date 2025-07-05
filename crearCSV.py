@@ -1,19 +1,6 @@
 #!/usr/bin/env python3
-"""
-03_json_to_csv.py
-~~~~~~~~~~~~~~~~~
-Recorre todos los .json de un directorio y crea un CSV
-con estas filas:
 
-  • title, content, 0   ← texto humano (original)
-  • title, <ia_text>, 1 ← para cada campo de IA (deepseek, llama, gemma…)
-
-Salida: noticias_from_json.csv
-
-Uso:
-    python 03_json_to_csv.py /ruta/a/carpeta_json salida.csv
-"""
-
+# Crea un csv con dos campos text y label recorriendo los .json
 import sys
 import json
 import pathlib
