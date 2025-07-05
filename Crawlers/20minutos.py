@@ -94,7 +94,7 @@ if __name__ == "__main__":
     if not os.path.exists('20minutos'):
         os.makedirs('20minutos')
     
-    print("🚀 Iniciando crawler de 20minutos...")
+    print("Iniciando crawler de 20minutos")
     process.crawl(VeinteMinutosSpider)
     process.start()
-    print("✅ Proceso completado!")
+    print("Proceso completado!")
