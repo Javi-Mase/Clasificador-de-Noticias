@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-# BASELINE sacado de https://realpython.com/python-keras-text-classification/#defining-a-baseline-model
+# BASELINE basado en https://realpython.com/python-keras-text-classification/#defining-a-baseline-model
 import sys
 import joblib
 import pandas as pd
