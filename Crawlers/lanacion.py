@@ -142,15 +142,15 @@ class lanacionSpider(scrapy.Spider):
         
         # Mostrar preview detallado
         print("\n" + "="*70)
-        print(f"🔥 NUEVO ARTÍCULO [{section.upper()}]")
-        print(f"📅 {date} | {url}")
+        print(f"NUEVO ARTÍCULO [{section.upper()}]")
+        print(f"{date} | {url}")
         print("-"*70)
-        print(f"📰 Título: {title}")
-        print(f"📝 Contenido: {content[:200]}...")
+        print(f"Título: {title}")
+        print(f"Contenido: {content[:200]}...")
         print("="*70 + "\n")
 
 if __name__ == "__main__":
     process = CrawlerProcess()
     process.crawl(lanacionSpider)
-    print("🚀 Spider de La Nación iniciado - Presiona Ctrl+C para detener")
+    print("Spider de La Nación iniciado.")
     process.start()
