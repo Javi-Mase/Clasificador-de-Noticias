@@ -132,13 +132,13 @@ def main():
         )
         print(report)
         
-        # ---------- MATRIZ DE CONFUSIÓN ----------
+        # Matriz de confusión
         cm = confusion_matrix(yTrue, yPred, labels=[0, 1])
 
-        # 2.1  Imprimirla en texto (opcional)
+        # Imprimirla en texto
         print("Matriz de confusión (VN, FP / FN, VP):\n", cm, "\n")
 
-        # 2.2  Dibujar y guardar como PNG (opcional)
+        # Dibujar y guardar como PNG
         fig, ax = plt.subplots(figsize=(4,4))
         disp = ConfusionMatrixDisplay(
                  confusion_matrix=cm,
