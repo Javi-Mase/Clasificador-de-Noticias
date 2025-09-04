@@ -1,10 +1,11 @@
-# Clasificador-de-Noticias
+# News Classifier
 
-En este repositorio están alguno de los script usados en mi trabajo final de grado de ingeniería informatica Clasificador de noticias periodísticas escritas por humanos y generadas por LLMs mediante modelos de aprendizaje profundo de la Universidad de Murcia. Iré estos dias subiendo poco a poco todos los codigos ya que estoy comentando todos los script para su mejor entendimiento.
+This repository contains some of the scripts used in my final degree project in computer engineering, News Classifier for human-written and LLM-generated news articles using deep learning models from the University of Murcia.
 
 
 ## Dataset
 
-El archivo testFinal.csv utiliza el dataset [Spanish News](https://huggingface.co/datasets/MarcOrfilaCarreras/spanish-news) creado por Marc Orfila Carreras, disponible en Hugging Face.
+The testFinal.csv file uses the [Spanish News](https://huggingface.co/datasets/MarcOrfilaCarreras/spanish-news) dataset created by Marc Orfila Carreras, available on Hugging Face.
 
 > Orfila Carreras, M. (2022). *Spanish News Dataset* [Dataset]. Hugging Face. https://huggingface.co/datasets/MarcOrfilaCarreras/spanish-news
+
